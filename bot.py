@@ -11,7 +11,7 @@ st.set_page_config(page_title="Cyber Telegram Server", page_icon="📟")
 st.title("📟 Cyber Telegram Bot Server")
 
 # টোকেন চেক করা (Streamlit Secrets থেকে নেবে)
-TOKEN = st.secrets.get("BOT_TOKEN")
+TOKEN = st.secrets.get("8508284133:AAHzxqRn20yIlToOnbRcl5IzYhokrj8F_0w")
 
 if not TOKEN:
     st.error("⚠️ BOT_TOKEN পাওয়া যায়নি! দয়া করে Streamlit Secrets-এ টোকেন সেট করুন।")
@@ -60,3 +60,4 @@ try:
     asyncio.run(main())
 except Exception as e:
     st.warning("বটটি ব্যাকগ্রাউন্ডে চলছে...")
+
