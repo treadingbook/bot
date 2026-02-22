@@ -8,5 +8,6 @@ A high-speed Telegram bot to download videos using `yt-dlp`.
 
 ### 🛠 Setup
 1. Install requirements: `pip install -r requirements.txt`
-2. Set your `8508284133:AAHzxqRn20yIlToOnbRcl5IzYhokrj8F_0w` in environment variables.
+2. Set your `YOUR_BOT_TOKEN` in environment variables.
+
 3. Run: `python bot.py`
